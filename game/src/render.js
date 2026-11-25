@@ -550,7 +550,7 @@ function drawHud(ctx, world) {
   if (world.combo >= 2) {
     text(ctx, `COMBO x${world.combo}`, 1240, 34, 16, '#ff7043', 'bold', 'right');
   }
-  text(ctx, `Served ${world.served}   •   M to mute`, 1240, 62, 13, '#bcaaa4', 'normal', 'right');
+  text(ctx, `Served ${world.served}`, 1240, 62, 13, '#bcaaa4', 'normal', 'right');
 }
 
 function drawBackground(ctx, world) {
